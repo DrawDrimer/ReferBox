@@ -1,0 +1,19 @@
+{
+  "name": "bright-definition-rank-0mak6",
+  "productName": "bright-definition-rank-0mak6",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "miguel",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "bootstrap-icons": "^1.10.5"
+  },
+  "devDependencies": {
+    "electron": "25.0.1"
+  }
+}
