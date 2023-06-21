@@ -6,6 +6,7 @@ const { electron } = require('process')
 function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
+    autoHideMenuBar: true, 
     width: 800,
     height: 600,
     webPreferences: {
@@ -13,7 +14,7 @@ function createWindow () {
     }
   })
 
-  const menu = electron.menu
+  
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
 

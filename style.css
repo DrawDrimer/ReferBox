@@ -2,6 +2,7 @@ body {
     --bs-body-font-family: var(--bs-font-monospace);
     --bs-body-line-height: 1.4;
     --bs-body-bg: var(--bs-gray-100);
+    background-color: rgb(0, 1, 32);
   }
   
   .table {
@@ -24,8 +25,23 @@ body {
   h2 {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
+    color: rgb(255, 255, 255);
   }
 
-  button {
-    
-  }
+.path-button {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+
+}
+
+.find-device-button {
+  background-color: rgb(79, 9, 158);
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+
+}
